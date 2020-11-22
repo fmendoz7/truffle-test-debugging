@@ -4,6 +4,9 @@ contract SimpleStorage {
     uint public storedData;
 
     function set(uint x) public {
-        storedData = x + 1;
+        //storeData = x + 1
+
+        //Want the data to be set to x
+        storedData = x;
     }
 }
